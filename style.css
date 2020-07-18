@@ -1,0 +1,80 @@
+@import 'responsive.css';
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+body {
+    padding: 20px;
+    margin: 20px auto;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.calculator {
+    margin: 20px auto;
+    width: 400px;
+    background-color: indianred;
+    border-radius: 5px;
+}
+
+.display {
+    padding: 10px;
+    width: inherit;
+    height: 70px;
+    text-align: right;
+    font-size: 5rem;
+    background-color: mediumpurple;
+    border-radius: 5px;
+}
+
+.keys {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5px;
+    padding: 15px;
+}
+
+button {
+    font-size: 4rem;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.number:hover {
+    background-color: rgb(238, 250, 229);
+}
+
+.dlt,
+.all-clear {
+    background-color: red;
+}
+
+.dlt:hover,
+.all-clear:hover {
+    background-color: rgb(245, 131, 131);
+}
+
+.operator {
+    background-color: seagreen;
+}
+
+.operator:hover {
+    background-color: rgb(108, 224, 159);
+}
+
+.equal {
+    background-color: steelblue;
+}
+
+.equal:hover {
+    background-color: rgb(150, 181, 206);
+}
