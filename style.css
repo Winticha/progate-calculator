@@ -1,7 +1,4 @@
-@import 'responsive.css';
-
 html {
-    font-size: 62.5%;
     box-sizing: border-box;
 }
 
@@ -21,7 +18,7 @@ body {
 
 .calculator {
     margin: 20px auto;
-    width: 400px;
+    width: 300px;
     background-color: indianred;
     border-radius: 5px;
 }
