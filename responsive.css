@@ -1,0 +1,17 @@
+@media (max-width: 670px) {
+    .calculator {
+        width: 300px;
+        height: max-content;
+    }
+    .display {
+        height: 90px;
+        background-color: rgb(151, 151, 131);
+    }
+    button {
+        font-size: 4.5em;
+    }
+    .dlt,
+    .all-clear {
+        font-size: 3em;
+    }
+}
